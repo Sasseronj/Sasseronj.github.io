@@ -1,0 +1,31 @@
+#container-content {
+    flex: 1;
+    padding: 8vh 10vh 8vh 10vh;
+    max-height: 100vh;
+    box-sizing: border-box;
+    background-color: #ced4da;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+#content-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 4vh;
+}
+
+.container-text {
+    padding-top: 2vh;
+    text-align: justify;
+}
+
+.text {
+    font-size: 18px;
+    padding: 0.5vh;
+}
+
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    margin: 10px 0;
+}

@@ -1,0 +1,28 @@
+#proj-table {
+    border-collapse: collapse;
+    width: 150vh;
+    margin-top: 4vh;
+    margin-left: 0vh;
+    background-color: #dee2e6;
+    border: 1px solid #6d6e6f;
+    border-radius: 1px;
+    font-size: 18px;
+}
+
+#proj-table tr ul {
+    margin-left: 3vh;
+
+}
+
+.proj-th, .proj-td {
+    padding: 3.5vh;
+    border-bottom: 1px solid #6d6e6f;
+    border: 1px solid #6d6e6f;
+    text-align: left;
+}
+
+.proj-th {
+    background-color: #dee2e6;
+    font-weight: bold;
+}
+

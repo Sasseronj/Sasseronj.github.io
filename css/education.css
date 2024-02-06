@@ -1,0 +1,29 @@
+#edu-table {
+    max-width: 80vh;
+    min-width: 80vh;
+    height: 4vh;
+    border-collapse: collapse;
+    margin-top: 4vh; 
+}
+
+#edu-left {
+    text-align: left;
+}
+
+#edu-right {
+    text-align: right;
+}
+
+#edu-table th, #edu-table td {
+    padding: 3px; 
+}
+
+.edu-list {
+    margin-left: 2vh;
+}
+
+.edu-info {
+    text-align: justify;
+    width: 78.5vh;
+    margin-left: 1vh;
+}

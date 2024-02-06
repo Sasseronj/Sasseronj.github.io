@@ -1,0 +1,21 @@
+#info-table {
+    border-collapse: collapse;
+    width: 50vh;
+    margin-top: 4vh;
+    margin-left: 0vh;
+    background-color: #dee2e6;
+    border: 1px solid #6d6e6f;
+    border-radius: 1px;
+    font-size: 18px;
+}
+
+.info-th, .info-td {
+    padding: 1vh;
+    border-bottom: 1px solid #6d6e6f;
+    text-align: left;
+}
+
+.info-th {
+    background-color: #dee2e6;
+    font-weight: bold;
+}
