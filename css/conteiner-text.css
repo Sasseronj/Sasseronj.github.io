@@ -8,7 +8,12 @@
     box-sizing: border-box;
 }
 
-#content-title {
+#btn-div {
+    background-color: #ced4da;
+
+}
+
+.content-title {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding-top: 4vh;
 }
