@@ -69,6 +69,8 @@
         </div>
         
         <div id="container-content">
+    <button id="sidebar-toggle">Open Sidebar</button>
+
             <h1 class="content-title" id="about-me">1.&nbsp; ABOUT ME</h1>
 
             <div class="divider"></div>
@@ -355,6 +357,13 @@
         
         projects.forEach(function(project) {
             addProjectToTable(project);
+        });
+
+        const sidebarToggle = document.getElementById('sidebar-toggle');
+        const container = document.getElementById('container');
+
+        sidebarToggle.addEventListener('click', () => {
+            container.classList.toggle('active');
         });
     </script>
 </body>

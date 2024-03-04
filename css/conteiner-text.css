@@ -1,4 +1,5 @@
 #container-content {
+    margin-left: 0;
     flex: 1;
     padding: 8vh 10vh 8vh 10vh;
     max-height: 100vh;
@@ -28,4 +29,10 @@
     height: 2px;
     background-color: #000;
     margin: 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+    #container-content {
+        left: 0;
+    }
 }
